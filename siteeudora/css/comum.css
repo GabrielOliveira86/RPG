@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/*.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "topo topo topo"
+    "meio meio meio"
+    "baxo baxo baxo";
+}
+
+.topo { grid-area: topo; }
+
+.baxo { grid-area: baxo; }
+
+.meio { grid-area: meio; }*/
+
+
+.fundo{
+  background-color: #b64141;
+  background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+img#imagem{
+  /*box-shadow: inset 0px 0px 10px rgb(0, 0, 0);*/
+  width: 1000px;
+}
+
+#corpo {
+  width: 1000px;
+  margin: 0px auto -20px auto;
+  box-shadow: 0px 0px 5px black;
+  background-color: #1a1a1a;
+  color: white;
+}

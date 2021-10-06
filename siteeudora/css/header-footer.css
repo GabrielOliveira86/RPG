@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* HEADER */
+header{
+    text-align: right;
+    margin: -20px -4px -20px auto;
+    font-size: 25px;
+    display: inline;
+    padding: 0px;
+    /*position: fixed;*/
+}
+
+/*#logo{
+    display: block;
+    float: left;
+    text-align: left;
+}*/
+
+.cabecalho ul{
+    padding: 0px;
+}
+
+.cabecalho li{
+    display: inline-block;
+    background-color: chartreuse;
+    margin: 10px -4px;
+    padding: 5px 15px;
+    border: none;
+}
+
+/*.logo{
+    text-align: left;
+}*/
+
+/* FOOTER */
+.rodape{
+    text-align: center;
+    background-color: black;
+    font-size: 25px;
+    padding: 20px 60px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.rodape h1{
+    font-size: 1px;
+}
+
+.pe-esquerda, .pe-direita{
+    float: left;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.rodape a{
+    color: rgb(75, 165, 224);
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.rodape a:visited{
+    text-decoration: none;
+    color: rgb(75, 165, 224);
+}
+
+.rodape a:hover{
+    color: rgb(125, 203, 255);
+}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid;
+    border-width: 1px 1px;
+}
+
+.tabela{
+    margin-bottom: 800px;
+}
+
+.e, .titulo, caption{
+    text-align: center;
+}
+
+.e, .d{
+    padding: 1px 5px;
+}
+
+#heroismo table tr:nth-child(2n+3){
+    background-color: #FFE699;
+}
+
+#heroismo table{
+    background-color: #FFF2CC;
+}
+
+#heroismo caption{
+    background-color: #FFD14F;
+}
+
+#heroismo .titulo{
+    background-color: #FFC000;
+}
+
+#vilanismo table tr:nth-child(2n+3){
+    background-color: #FBC5AF;
+}
+
+#vilanismo table{
+    background-color: #FFF2CC;
+}
+
+#vilanismo caption{
+    background-color: #ff5e5e;
+}
+
+#vilanismo .titulo{
+    background-color: #ff3131;
+    text-shadow: 0px 0px 6px white;
+}
+
+#neutralidade table tr:nth-child(2n+3){
+    background-color: #e2e2e2;
+}
+
+#neutralidade table{
+    background-color: #ffffff;
+}
+
+#neutralidade caption{
+    background-color: #bebebe;
+}
+
+#neutralidade .titulo{
+    background-color: #b1b1b1;
+}

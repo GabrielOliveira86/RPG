@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.fundo{
+    background-image: url("../media/image/party.jpg");
+}
+
+#interface{
+    background-color: #fd1111;
+}
+
+#menu a:hover{
+    background-color: #970000;
+}
+
+.vivo{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.vivo h1{
+    padding-top: 100px;
+}
+
+ul#lista-personagens {
+    width: 680px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#lista-personagens li {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+
+ul#lista-personagens a li span {
+    width: 290px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 0px 0px 3px black;
+    font-size: 30px;
+    margin-top: 355px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+ul#lista-personagens li#gabriel:hover,
+ul#lista-personagens li#gamora:hover,
+ul#lista-personagens li#gp:hover,
+ul#lista-personagens li#jax:hover {
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+ul#lista-personagens li#gabriel{
+    background: url("../media/image/char-gabriel.png");
+    background-position: center;
+    background-size: 640px 400px;
+    border-radius: 15px;
+}
+
+ul#lista-personagens li#gamora {
+    background: url("../media/image/char-gamora.png");
+    background-position: center;
+    background-size: 640px 400px;
+    border-radius: 15px;
+}
+
+ul#lista-personagens li#gp {
+    background: url("../media/image/char-gp.png");
+    background-position: center;
+    background-size: 640px 400px;
+    border-radius: 15px;
+}
+
+ul#lista-personagens li#jax {
+    background: url("../media/image/char-jax.png");
+    background-position: center;
+    background-size: 640px 400px;
+    border-radius: 15px;
+}

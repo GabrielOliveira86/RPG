@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.fundo{
+    background-image: url("../media/image/fundo_podcast.png");
+}
+
+#interface{
+    background-color: #ff6314;
+}
+
+#menu a:hover{
+    background-color: #b33c00;
+}
+
+.texto{
+    text-align: justify;
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 10px 60px;
+}
+
+.texto h1{
+    text-align: center;
+}
+
+.som{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 300px;
+}

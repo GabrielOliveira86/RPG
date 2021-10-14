@@ -25,7 +25,7 @@
 ul#lista-personagens {
     width: 680px;
     margin: 0 auto;
-    padding: 50px;
+    
     overflow: hidden;
     list-style: none;
 }
@@ -59,9 +59,9 @@ ul#lista-personagens li#jax:hover {
 }
 
 ul#lista-personagens li#gabriel{
-    background: url("../media/image/char-gabriel.png");
+    background: url("../media/image/bardo.png");
     background-position: center;
-    background-size: 640px 400px;
+    background-size: 660px 600px;
     border-radius: 15px;
 }
 

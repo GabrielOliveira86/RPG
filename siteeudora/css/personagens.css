@@ -55,32 +55,32 @@ ul#lista-personagens li#gabriel:hover,
 ul#lista-personagens li#gamora:hover,
 ul#lista-personagens li#gp:hover,
 ul#lista-personagens li#jax:hover {
-    box-shadow: 0px 0px 10px #ffffff;
+    box-shadow: 0px 0px 20px #31ddfc;
 }
 
 ul#lista-personagens li#gabriel{
     background: url("../media/image/bardo.png");
     background-position: center;
-    background-size: 660px 600px;
+    background-size: 1000px 600px;
     border-radius: 15px;
 }
 
 ul#lista-personagens li#gamora {
-    background: url("../media/image/char-gamora.png");
+    background: url("../media/image/cleriga.png");
     background-position: center;
     background-size: 640px 400px;
     border-radius: 15px;
 }
 
 ul#lista-personagens li#gp {
-    background: url("../media/image/char-gp.png");
+    background: url("../media/image/artifice.png");
     background-position: center;
     background-size: 640px 400px;
     border-radius: 15px;
 }
 
 ul#lista-personagens li#jax {
-    background: url("../media/image/char-jax.png");
+    background: url("../media/image/pugilista.png");
     background-position: center;
     background-size: 640px 400px;
     border-radius: 15px;

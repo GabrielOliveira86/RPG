@@ -68,20 +68,20 @@ ul#lista-personagens li#gabriel{
 ul#lista-personagens li#gamora {
     background: url("../media/image/cleriga.png");
     background-position: center;
-    background-size: 640px 400px;
+    background-size: 1000px 600px;
     border-radius: 15px;
 }
 
 ul#lista-personagens li#gp {
     background: url("../media/image/artifice.png");
     background-position: center;
-    background-size: 640px 400px;
+    background-size: 1000px 600px;
     border-radius: 15px;
 }
 
 ul#lista-personagens li#jax {
     background: url("../media/image/pugilista.png");
     background-position: center;
-    background-size: 640px 400px;
+    background-size: 1000px 600px;
     border-radius: 15px;
 }

@@ -1,4 +1,10 @@
 @charset "utf-8";
+.corpo{
+    width: 1000px;
+	margin: -22px auto ;
+	background-color: #1A1A1A;
+	position: relative;
+}
 
 .fundo{
     background-image: url("../media/image/party.jpg");

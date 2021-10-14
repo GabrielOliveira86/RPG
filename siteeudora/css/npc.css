@@ -12,12 +12,49 @@
     background-color: #890035;
 }
 
-.vivo{
-    position: relative;
-    text-align: center;
+.npc{
+    position: relative;  
     margin: 20px;
 }
-
-.vivo h1{
+.npc #title{
+    text-align: center;
+}
+.npc h1{
     padding-top: 100px;
+}
+
+#persona{
+    align-items: center;
+    height: 300px;
+    width: 960px;
+    
+    justify-content: center;
+
+    
+}
+.npc #foto{
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    float: left;
+    border-radius: 5% 0% 0% 5%;
+}
+#info{
+    height: 300px;
+    width: 500px;
+    
+    background-image: linear-gradient(to right, rgba(0, 25, 109, 0), rgba(0, 17, 73, 0.514));
+    float: right;
+    margin-right: 70px;
+    border-radius: 0% 5% 5% 0%;
+    
+}
+#info h1, p{
+    text-align: justify;
+    padding-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#info p{
+    text-justify: auto;
 }

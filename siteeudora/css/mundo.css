@@ -204,8 +204,37 @@ figure.fotolegenda figcaption{
 }
 
 
+.cidades{
 
-
+	height: 300px;
+    width: 1000px;
+}
+.cidades #foto{
+    height: 300px;
+    width: 330px;
+    margin-left: 70px;
+    float: left;
+    
+}
+.cidades img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5% 0% 0% 5%;
+}
+.cidades #info{
+    height: 300px;
+    width: 550px;  
+    background-image: linear-gradient(to right, rgba(5, 50, 201, 0.473), rgba(0, 73, 12, 0));
+    float: right;
+    margin-right: 50px;
+    border-radius: 0% 5% 5% 0%;
+	text-align: justify;
+    
+}
+.cidades #info h1, h3, p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 
 /*RODAPÉ*/

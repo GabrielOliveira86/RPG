@@ -37,6 +37,8 @@
     width: 300px;
     margin-left: 70px;
     float: left;
+}
+.npc #foto img{
     border-radius: 5% 0% 0% 5%;
 }
 #info{

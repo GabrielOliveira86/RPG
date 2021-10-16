@@ -289,3 +289,36 @@ footer h1{
     
     color: rgb(125, 203, 255);
 }
+
+
+.reinos{
+	display:none;
+	height: 300px;
+    width: 1000px;
+}
+.reinos #foto{
+    height: 300px;
+    width: 330px;
+    margin-left: 70px;
+    float: left;
+    
+}
+.reinos img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5% 0% 0% 5%;
+}
+.reinos #info{
+    height: 300px;
+    width: 550px;  
+    background-image: linear-gradient(to right, rgba(5, 50, 201, 0.473), rgba(0, 73, 12, 0));
+    float: right;
+    margin-right: 50px;
+    border-radius: 0% 5% 5% 0%;
+	text-align: justify;
+    
+}
+.reinos #info h1, h3, p{
+	margin-left: 20px;
+	margin-right: 20px;
+}

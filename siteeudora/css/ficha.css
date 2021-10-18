@@ -205,7 +205,14 @@ p.bottom-right{
     list-style-type: disc;
     color: #29ABEC;
 }
-
+.especialista{
+    list-style-type: disc;
+    color: #29ec4a;
+}
+.mestre{
+    list-style-type: disc;
+    color: #ecd829;
+}
 .personalidade{
     padding: 0px 10px;
     text-align: center;

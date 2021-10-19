@@ -45,7 +45,7 @@ ul#lista-personagens li {
 
 ul#lista-personagens a li span {
     width: 290px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     position: relative;
     display: inline-block;
@@ -69,6 +69,7 @@ ul#lista-personagens li#gabriel{
     background-position: center;
     background-size: 1000px 600px;
     border-radius: 15px;
+    font-weight: bolder;
 }
 
 ul#lista-personagens li#gamora {
@@ -76,6 +77,7 @@ ul#lista-personagens li#gamora {
     background-position: center;
     background-size: 1000px 600px;
     border-radius: 15px;
+    font-weight: bolder;
 }
 
 ul#lista-personagens li#gp {
@@ -83,6 +85,7 @@ ul#lista-personagens li#gp {
     background-position: center;
     background-size: 1000px 600px;
     border-radius: 15px;
+    font-weight: bolder;
 }
 
 ul#lista-personagens li#jax {
@@ -90,4 +93,5 @@ ul#lista-personagens li#jax {
     background-position: center;
     background-size: 1000px 600px;
     border-radius: 15px;
+    font-weight: bolder;
 }

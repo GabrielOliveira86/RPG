@@ -61,7 +61,7 @@
     padding: 20px;
 }
 .top-left h1, .bottom-right h1{
-
+    text-align: center;
     font-size: 40px;
     margin-top: 0px;
 }

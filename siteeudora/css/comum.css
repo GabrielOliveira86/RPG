@@ -40,6 +40,6 @@ img#imagem{
   width: 1000px;
   margin: 0px auto -20px auto;
   box-shadow: 0px 0px 5px black;
-  background-color: #1a1a1a;
+  background-color: rgba(36, 36, 36, 0.85);
   color: white;
 }

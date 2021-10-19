@@ -296,7 +296,7 @@ LOCAIS == CIDADES
 	text-align: justify;
     
 }
-.cidades #info h1, h3, p{
+.cidades #info h1, h3{
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -366,7 +366,7 @@ LOCAIS == CIDADES
 	height: 100%;
 	border-radius: 5% 0% 0% 5%;
 }
-.cidades2 #info{
+.cidades2 #info2{
     height: 300px;
     width: 550px;  
     background-image: linear-gradient(to right, rgba(28, 201, 5, 0.473), rgba(0, 73, 6, 0));
@@ -376,7 +376,7 @@ LOCAIS == CIDADES
 	text-align: justify;
     
 }
-.cidades2 #info h1, h3, p{
+.cidades2 #info2 h1, h3{
 	margin-left: 20px;
 	margin-right: 20px;
 }

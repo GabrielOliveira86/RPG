@@ -1,0 +1,113 @@
+body{
+    
+    background-image: url("../media/npcs.jpg");
+    background-attachment: fixed;
+	background-size: 100%;
+    background-color: rgb(39, 6, 35);
+    
+}
+
+.lista{
+    margin-top: 80px;
+    width: 60%;
+    margin-left: 20%;
+}
+.NPCFoto{
+    float: left;
+    height: 300px;
+    width: 40%;
+    
+}
+.NPCFoto img{
+    height: 300px;
+    width: 100%;
+    border-radius: 5% 0% 0% 5%;
+}
+.NPCInfo{
+    height: 300px;
+    width: 60%;
+    background-image: linear-gradient(to right, rgb(27, 7, 29), rgba(62, 18, 66, 0.795));
+    float: right;
+    border-radius: 0% 5% 5% 0%;
+}
+.NPCInfo h1, h3, p{
+    color: white;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+    transition: 0.5s;
+}
+.navbar-light .navbar-brand:hover{
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+	
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+	background-color: rgb(68, 9, 80);
+	border-radius: 50px;
+    transition: 0.5s;
+}
+.w-100 {
+	height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+
+
+

@@ -1,0 +1,169 @@
+body{
+    background-image: url("../media/mundo.jpg");
+    background-attachment: fixed;
+	background-size: 100%;
+    background-color: rgb(2, 15, 15);
+    
+}
+
+.esconder2{
+    
+    float: right;
+    width: 80%;
+    display: none;
+}
+.esconder3{
+    
+    float: right;
+    width: 80%;
+    display: none;
+}
+
+
+.regiaoFoto{
+    float: left;
+    height: 300px;
+    width: 40%;
+    
+}
+.regiaoFoto img{
+    height: 300px;
+    width: 100%;
+    border-radius: 5% 0% 0% 5%;
+}
+.regiaoInfo{
+    height: 300px;
+    width: 60%;
+    background-image: linear-gradient(to right, rgb(18, 66, 30), rgba(33, 129, 57, 0.795));
+    float: right;
+    border-radius: 0% 5% 5% 0%;
+}
+.regiaoInfo h1, h3, p{
+    color: white;
+    margin: 20px;
+    text-align: justify;
+}
+#fotoIntern img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5% 0% 0% 5%;
+}
+#fotoIntern{
+    float: left;
+    height: 250px;
+    width: 40%;
+}
+#regInfo{
+    height: 250px;
+    width: 60%;
+    background-image: linear-gradient(to right, rgb(27, 27, 100), rgba(27, 27, 100, 0.795));
+    float: right;
+    border-radius: 0% 5% 5% 0%;
+}
+#regInfo h3, h5, p{
+    color: white;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+    transition: 0.5s;
+}
+.navbar-light .navbar-brand:hover{
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+	
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+	background-color: rgb(20, 105, 34);
+	border-radius: 50px;
+    transition: 0.5s;
+}
+.w-100 {
+	height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+
+.sub-btn{
+    width: 20%;
+	height: 50px;
+	color: white;
+	
+	border: none; 
+    border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: fantasy;
+	cursor: pointer;
+	transition: background .3s;
+    margin-left: 80px;
+}
+.btn-info2{
+	background-color: rgba(23, 39, 88, 0.774);
+	outline-color: none
+}
+.btn-info2:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+    background-color: rgb(23, 39, 88);
+}
+
+
+

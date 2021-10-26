@@ -1,0 +1,450 @@
+<!--Criador: Gabriel Oliveira dos Santos-->
+<!--Linkedin: https://www.linkedin.com/in/gabriel-oliveira-ssg/-->
+<!--Github: https://github.com/GabrielOliveira86-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personagens</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="../css/personagens.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="position: absolute;">
+		<div class="container">
+			<a class="navbar-brand" href="home.html">EUDORA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="personagens.html">Personagens</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mundo.html">Mundo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="npcs.html">NPCs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class="container">
+        <div class="centro">      
+            <div class="direita"> 
+                <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">  
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img alt="First slide" class="d-block w-100" src="../media/bardoG.png">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">Gabriel</h5>
+                                <h3 class="animated bounceInLeft" style="animation-delay: 2s">O Bardo</h3>
+                                <br><br><br><br><br><br><br><br><br><br>
+                                <p class="animated bounceInRight" style="animation-delay: 0s"><a href="personagens.html#espaco1">More Info</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="Second slide" class="d-block w-100" src="../media/clerigaG.png">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">Haline</h5>
+                                <h3 class="animated bounceInLeft" style="animation-delay: 2s">A Cleriga</h3>
+                                <br><br><br><br><br><br><br><br><br><br>
+                                <p class="animated bounceInRight" style="animation-delay: 0s"><a href="personagens.html#espaco2">More Info</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="Third slide" class="d-block w-100" src="../media/pugilistaG.png">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">Lucas</h5>
+                                <h3 class="animated bounceInLeft" style="animation-delay: 2s">O Pugilista</h3>
+                                <br><br><br><br><br><br><br><br><br><br>
+                                <p class="animated bounceInRight" style="animation-delay: 0s"><a href="personagens.html#espaco3">More Info</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="Fouth slide" class="d-block w-100" src="../media/artificeG.png">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">Gustavo</h5>
+                                <h3 class="animated bounceInLeft" style="animation-delay: 2s">O Artífice</h3>
+                                <br><br><br><br><br><br><br><br><br><br>
+                                <p class="animated bounceInRight" style="animation-delay: 0s"><a href="personagens.html#espaco4">More Info</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="esquerda">
+                <ol class="cards">
+                    <li id="S1" data-slide-to="0" data-target="#carouselExampleIndicators" class="active" style="background-image: url('../media/bardo.png');"></li>
+                    <li id="S2" data-slide-to="1" data-target="#carouselExampleIndicators"style="background-image: url('../media/cleriga.png');"); ></li>
+                    <li id="S3" data-slide-to="2" data-target="#carouselExampleIndicators"style="background-image: url('../media/pugilista.png');");></li>
+                    <li id="S4" data-slide-to="3" data-target="#carouselExampleIndicators"style="background-image: url('../media/artifice.png');");></li>
+                </ol>
+            </div>
+        </div>
+        <article>.</article>
+        <div class="space" id="espaco1">
+            <div class="imagem">
+                <img src="../media/bardoG.png" alt="">
+            </div>
+            <div class="ficha "style="text-align:center;">
+                <div class="dados">
+                    <h1>Gabriel</h1>
+                    <div class="pericia">
+                        <h5>PERÍCIAS</h5>
+                        <ul>
+                            <li>Acrobacia <span>(DES)</span></li>
+                            <li>Arcanismo <span>(INT)</span></li>
+                            <li>Atletismo <span>(FOR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Atuação <span>(CAR)</span></li>
+                            <li class="especialista" title="Especialista">Enganação <span>(CAR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Furtividade <span>(DES)</span></li>
+                            <li>História <span>(INT)</span></li>
+                            <li>Intimidação <span>(CAR)</span></li>
+                            <li>Intuição <span>(SAB)</span></li>
+                            <li class="proficiente" title="Proeficiente">Investigação <span>(INT)</span></li>
+                            <li>Lidar com animais <span>(SAB)</span></li>
+                            <li>Medicina <span>(SAB)</span></li>
+                            <li>Natureza <span>(INT)</span></li>
+                            <li>Percepção <span>(SAB)</span></li>
+                            <li class="especialista" title="Especialista">Persuação <span>(CAR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Prestidigitação <span>(DES)</span></li>
+                            <li>Religião <span>(INT)</span></li>
+                            <li>Sobrevivência <span>(SAB)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="lado">
+                        <div class="historia">
+                            <h4>Dados</h4>
+                            <p>
+                                <h6 style="color: rgb(24, 204, 55);">Nivel: <a style="color: white;">3</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Classe: <a style="color: white;">Bardo</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Raça: <a style="color: white;">Humano</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Profissão: <a style="color: white;">Carpinteiro</a></h6>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="testeR">
+                            <br>
+                            <h5>TESTES DE RESISTÊNCIA</h5>
+                            <ul>
+                                <li>Força</li>
+                                <li class="proficiente">Destreza</li>
+                                <li>Constituição</li>
+                                <li>Inteligência</li>
+                                <li>Sabedoria</li>
+                                <li class="proficiente">Carisma</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <table>
+                            <tr>
+                                <th colspan="3">Pontos</th>
+                            </tr>
+                            <tr>
+                                <td id="H" title="Heroismo">0</td>
+                                <td id="N" title="Neutralidade">16</td>
+                                <td id="V" title="Vilanismo">0</td>
+                            </tr> 
+                        </table>
+                    </div>
+
+                <div class="top" >
+                        <table>
+                            <tr>
+                                <th style="border-radius: 0px 0px 0px 10px;"><a style="color: blueviolet;">FOR:</a> 14 <a>+2</a></th>
+                                <th><a style="color: blueviolet;">DES:</a> 12 <a>+1</a></th>
+                                <th><a style="color: blueviolet;">CON:</a> 11 <a>+0</a></th>
+                                <th><a style="color: blueviolet;">INT:</a> 12 <a>+1</a></th>
+                                <th><a style="color: blueviolet;">SAB:</a> 9 <a>-1</a></th>
+                                <th style="border-radius: 0px 0px 10px 0px;"><a style="color: blueviolet;">CAR:</a> 20 <a>+5</a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" id="botao" >
+                <a href="personagens.html">Voltar</a>
+            </button>
+        </div>
+        
+        <article>.</article>
+        <div class="space" id="espaco2">
+            <div class="imagem">
+                <img src="../media/clerigaG.png" alt="">
+            </div>
+            <div class="ficha "style="text-align:center;">
+                <div class="dados">
+                    <h1>Haline</h1>
+                    <div class="pericia">
+                        <h5>PERÍCIAS</h5>
+                        <ul>
+                            <li>Acrobacia <span>(DES)</span></li>
+                            <li>Arcanismo <span>(INT)</span></li>
+                            <li>Atletismo <span>(FOR)</span></li>
+                            <li>Atuação <span>(CAR)</span></li>
+                            <li>Enganação <span>(CAR)</span></li>
+                            <li>Furtividade <span>(DES)</span></li>
+                            <li>História <span>(INT)</span></li>
+                            <li class="proficiente" title="Proeficiente">Intimidação <span>(CAR)</span></li>
+                            <li>Intuição <span>(SAB)</span></li>
+                            <li>Investigação <span>(INT)</span></li>
+                            <li>Lidar com animais <span>(SAB)</span></li>
+                            <li class="proficiente" title="Proeficiente">Medicina <span>(SAB)</span></li>
+                            <li>Natureza <span>(INT)</span></li>
+                            <li>Percepção <span>(SAB)</span></li>
+                            <li class="proficiente" title="Proeficiente">Persuação <span>(CAR)</span></li>
+                            <li>Prestidigitação <span>(DES)</span></li>
+                            <li>Religião <span>(INT)</span></li>
+                            <li>Sobrevivência <span>(SAB)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="lado">
+                        <div class="historia">
+                            <h4>Dados</h4>
+                            <p>
+                                <h6 style="color: rgb(24, 204, 55);">Nivel: <a style="color: white;">3</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Classe: <a style="color: white;">Cleriga</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Raça: <a style="color: white;">Gnomo</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Profissão: <a style="color: white;">Boticário</a></h6>
+                                
+                            </p>
+                        </div>
+                        <div class="testeR">
+                            <br>
+                            <h5>TESTES DE RESISTÊNCIA</h5>
+                            <ul>
+                                <li>Força</li>
+                                <li>Destreza</li>
+                                <li>Constituição</li>
+                                <li>Inteligência</li>
+                                <li class="proficiente">Sabedoria</li>
+                                <li class="proficiente">Carisma</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <table>
+                            <tr>
+                                <th colspan="3">Pontos</th>
+                            </tr>
+                            <tr>
+                                <td id="H" title="Heroismo">1</td>
+                                <td id="N" title="Neutralidade">6</td>
+                                <td id="V" title="Vilanismo">1</td>
+                            </tr> 
+                        </table>
+                    </div>
+
+                <div class="top" >
+                    <table>
+                        <tr>
+                            <th style="border-radius: 0px 0px 0px 10px;"><a style="color: blueviolet;">FOR:</a> 11 <a>+0</a></th>
+                            <th><a style="color: blueviolet;">DES:</a> 14 <a>+2</a></th>
+                            <th><a style="color: blueviolet;">CON:</a> 14 <a>+2</a></th>
+                            <th><a style="color: blueviolet;">INT:</a> 10 <a>+0</a></th>
+                            <th><a style="color: blueviolet;">SAB:</a> 16 <a>+3</a></th>
+                            <th style="border-radius: 0px 0px 10px 0px;"><a style="color: blueviolet;">CAR:</a> 13 <a>+1</a></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="botao" >
+            <a href="personagens.html">Voltar</a>
+        </button>
+    </div>
+    <article>.</article>
+        <div class="space" id="espaco3">
+            <div class="imagem">
+                <img src="../media/pugilistaG.png" alt="">
+            </div>
+            <div class="ficha "style="text-align:center;">
+                <div class="dados">
+                    <h1>Lucas</h1>
+                    <div class="pericia">
+                        <h5>PERÍCIAS</h5>
+                        <ul>
+                            <li>Acrobacia <span>(DES)</span></li>
+                            <li>Arcanismo <span>(INT)</span></li>
+                            <li>Atletismo <span>(FOR)</span></li>
+                            <li >Atuação <span>(CAR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Enganação <span>(CAR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Furtividade <span>(DES)</span></li>
+                            <li>História <span>(INT)</span></li>
+                            <li class="proficiente" title="Proeficiente">Intimidação <span>(CAR)</span></li>
+                            <li class="proficiente" title="Proeficiente">Intuição <span>(SAB)</span></li>
+                            <li>Investigação <span>(INT)</span></li>
+                            <li>Lidar com animais <span>(SAB)</span></li>
+                            <li>Medicina <span>(SAB)</span></li>
+                            <li>Natureza <span>(INT)</span></li>
+                            <li class="proficiente" title="Proeficiente">Percepção <span>(SAB)</span></li>
+                            <li>Persuação <span>(CAR)</span></li>
+                            <li>Prestidigitação <span>(DES)</span></li>
+                            <li>Religião <span>(INT)</span></li>
+                            <li class="proficiente" title="Proeficiente">Sobrevivência <span>(SAB)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="lado">
+                        <div class="historia">
+                            <h4>Dados</h4>
+                            <p>
+                                <h6 style="color: rgb(24, 204, 55);">Nivel: <a style="color: white;">3</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Classe: <a style="color: white;">Pugilista</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Raça: <a style="color: white;">Meio-Orc</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Profissão: <a style="color: white;">Alfaiate</a></h6>
+                                
+                            </p>
+                        </div>
+                        <div class="testeR">
+                            <h5>TESTES DE RESISTÊNCIA</h5>
+                            <ul>
+                                <li class="proficiente">Força</li>
+                                <li>Destreza</li>
+                                <li class="proficiente">Constituição</li>
+                                <li>Inteligência</li>
+                                <li>Sabedoria</li>
+                                <li>Carisma</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <table>
+                            <tr>
+                                <th colspan="3">Pontos</th>
+                            </tr>
+                            <tr>
+                                <td id="H" title="Heroismo">0</td>
+                                <td id="N" title="Neutralidade">9</td>
+                                <td id="V" title="Vilanismo">1</td>
+                            </tr> 
+                        </table>
+                    </div>
+
+                <div class="top" >
+                        <table>
+                            <tr>
+                                <th style="border-radius: 0px 0px 0px 10px;"><a style="color: blueviolet;">FOR:</a> 14 <a>+2</a></th>
+                                <th><a style="color: blueviolet;">DES:</a> 10 <a>+0</a></th>
+                                <th><a style="color: blueviolet;">CON:</a> 14 <a>+2</a></th>
+                                <th><a style="color: blueviolet;">INT:</a> 10 <a>+0</a></th>
+                                <th><a style="color: blueviolet;">SAB:</a> 13 <a>+1</a></th>
+                                <th style="border-radius: 0px 0px 10px 0px;"><a style="color: blueviolet;">CAR:</a> 10 <a>+0</a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" id="botao" >
+                <a href="personagens.html">Voltar</a>
+            </button>
+        </div>
+        <article>.</article>
+        <div class="space" id="espaco4">
+            <div class="imagem">
+                <img src="../media/artificeG.png" alt="">
+            </div>
+            <div class="ficha "style="text-align:center;">
+                <div class="dados">
+                    <h1>Gustavo</h1>
+                    <div class="pericia">
+                        <h5>PERÍCIAS</h5>
+                        <ul>
+                            <li>Acrobacia <span>(DES)</span></li>
+                            <li class="proficiente" title="Proeficiente">Arcanismo <span>(INT)</span></li>
+                            <li>Atletismo <span>(FOR)</span></li>
+                            <li>Atuação <span>(CAR)</span></li>
+                            <li>Enganação <span>(CAR)</span></li>
+                            <li>Furtividade <span>(DES)</span></li>
+                            <li>História <span>(INT)</span></li>
+                            <li>Intimidação <span>(CAR)</span></li>
+                            <li>Intuição <span>(SAB)</span></li>
+                            <li class="proficiente" title="Proeficiente">Investigação <span>(INT)</span></li>
+                            <li>Lidar com animais <span>(SAB)</span></li>
+                            <li class="proficiente" title="Proeficiente">Medicina <span>(SAB)</span></li>
+                            <li>Natureza <span>(INT)</span></li>
+                            <li class="proficiente" title="Proeficiente">Percepção <span>(SAB)</span></li>
+                            <li>Persuação <span>(CAR)</span></li>
+                            <li>Prestidigitação <span>(DES)</span></li>
+                            <li class="proficiente" title="Proeficiente">Religião <span>(INT)</span></li>
+                            <li>Sobrevivência <span>(SAB)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="lado">
+                        <div class="historia">
+                            <h4>Dados</h4>
+                            <p>
+                                <h6 style="color: rgb(24, 204, 55);">Nivel: <a style="color: white;">3</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Classe: <a style="color: white;">Artífice</a></h6>
+                                <h6 style="color: rgb(25, 204, 55);">Raça: <a style="color: white;">Elfo</a></h6>
+                                <h6 style="color: rgb(24, 204, 55);">Profissão: <a style="color: white;">Artesão</a></h6>
+                                
+                            </p>
+                        </div>
+                        <div class="testeR">
+                            <h5>TESTES DE RESISTÊNCIA</h5>
+                            <ul>
+                                <li>Força</li>
+                                <li class="proficiente">Destreza</li>
+                                <li class="proficiente">Constituição</li>
+                                <li>Inteligência</li>
+                                <li>Sabedoria</li>
+                                <li>Carisma</li>
+                            </ul>
+                        </div>
+                        <br><br>
+                        <table>
+                            <tr>
+                                <th colspan="3">Pontos</th>
+                            </tr>
+                            <tr>
+                                <td id="H" title="Heroismo">0</td>
+                                <td id="N" title="Neutralidade">19</td>
+                                <td id="V" title="Vilanismo">2</td>
+                            </tr> 
+                        </table>
+                    </div>
+
+                <div class="top" >
+                        <table>
+                            <tr>
+                                <th style="border-radius: 0px 0px 0px 10px;"><a style="color: blueviolet;">FOR:</a> 9 <a>-1</a></th>
+                                <th><a style="color: blueviolet;">DES:</a> 14 <a>+2</a></th>
+                                <th><a style="color: blueviolet;">CON:</a> 12 <a>+1</a></th>
+                                <th><a style="color: blueviolet;">INT:</a> 16 <a>+3</a></th>
+                                <th><a style="color: blueviolet;">SAB:</a> 12 <a>+1</a></th>
+                                <th style="border-radius: 0px 0px 10px 0px;"><a style="color: blueviolet;">CAR:</a> 10 <a>+0</a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" id="botao" >
+                <a href="personagens.html">Voltar</a>
+            </button>
+        </div>
+</div>
+    
+
+
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js">
+    </script>   
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+</body>
+</html>

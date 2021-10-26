@@ -1,0 +1,87 @@
+<!--Criador: Gabriel Oliveira dos Santos-->
+<!--Linkedin: https://www.linkedin.com/in/gabriel-oliveira-ssg/-->
+<!--Github: https://github.com/GabrielOliveira86-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Eudora</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="../css/home.css" rel="stylesheet">
+    <!--<link href="../css/style.css" rel="stylesheet">-->
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">EUDORA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="personagens.html">Personagens</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mundo.html">Mundo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="npcs.html">NPCs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+            <li id="S1" data-slide-to="0" data-target="#carouselExampleIndicators" class="active"
+            style="background-image: url('../media/partyP.png');"></li>
+            <li id="S2" data-slide-to="1" data-target="#carouselExampleIndicators" 
+            style="background-image: url('../media/mundoP.png');"></li>
+            <li id="S3" data-slide-to="2" data-target="#carouselExampleIndicators"
+            style="background-image: url('../media/npcsP.png');"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="First slide" class="d-block w-100" src="../media/party.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animated bounceInRight" style="animation-delay: 1s">Personagens</h5>
+                    <p class="animated bounceInLeft" style="animation-delay: 2s">Descubra quem são os aventureiros e guerreiros que estão se aventurando nesse mundo.</p>
+                    <p class="animated bounceInRight" style="animation-delay: 3s"><a href="personagens.html" id="text" style="border-radius: 50px">Mais</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Second slide" class="d-block w-100" src="../media/mundo.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animated slideInDown" style="animation-delay: 1s">Mundo</h5>
+                    <p class="animated fadeInUp" style="animation-delay: 2s">Veja e desbrave esse mundo fantático</p>
+                    <p class="animated zoomIn" style="animation-delay: 3s" ><a href="mundo.html" id="text" style="border-radius: 50px">Mais</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="Third slide" class="d-block w-100" src="../media/npcs.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animated zoomIn" style="animation-delay: 1s">NPCs</h5>
+                    <p class="animated fadeInLeft" style="animation-delay: 2s">Conheça os personagens e suas histórias</p>
+                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="npcs.html"  id="text" style="border-radius: 50px">Mais</a></p>
+                </div>
+            </div>
+        </div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+    </div>
+
+    
+
+
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js">
+    </script>   
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+</body>
+</html>
